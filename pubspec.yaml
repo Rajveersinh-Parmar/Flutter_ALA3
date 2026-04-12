@@ -1,0 +1,23 @@
+name: flutter_ala_3
+description: "A new Flutter project for GMIU FAD ALA-3."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # All dependencies must be aligned exactly with 'flutter'
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
